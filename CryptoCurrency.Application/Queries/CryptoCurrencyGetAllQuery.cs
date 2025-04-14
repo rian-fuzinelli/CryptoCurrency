@@ -1,6 +1,6 @@
 ﻿namespace CryptoCurrency.Application.Queries;
 
-public class CryptoCurrencyGetAllQuery
-{
-    
-}
+using Domain.Entities;
+using MediatR;
+
+public record CryptoCurrencyGetAllQuery : IRequest<IEnumerable<CryptoCurrency>>;

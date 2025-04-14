@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCurrency.WebApi", "CryptoCurrency.WebApi\CryptoCurrency.WebApi.csproj", "{0480FB0E-AEBA-49FF-ADEA-4FDFE9B52687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCurrency.Domain", "CryptoCurrency.Domain\CryptoCurrency.Domain.csproj", "{1B69709B-56F7-4366-BB56-8DBDE0FF1F23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCurrency.Application", "CryptoCurrency.Application\CryptoCurrency.Application.csproj", "{1D83E9FA-3817-472C-8478-CF0335BD593A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCurrency.Presentation", "CryptoCurrency.Presentation\CryptoCurrency.Presentation.csproj", "{C158D618-5EF7-4725-BE2A-A26B31B74696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCurrency.Infrastructure", "CryptoCurrency.Infrastructure\CryptoCurrency.Infrastructure.csproj", "{4F064832-31DB-4565-B3C7-6698B2041197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,21 @@ Global
 		{0480FB0E-AEBA-49FF-ADEA-4FDFE9B52687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0480FB0E-AEBA-49FF-ADEA-4FDFE9B52687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0480FB0E-AEBA-49FF-ADEA-4FDFE9B52687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B69709B-56F7-4366-BB56-8DBDE0FF1F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B69709B-56F7-4366-BB56-8DBDE0FF1F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B69709B-56F7-4366-BB56-8DBDE0FF1F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B69709B-56F7-4366-BB56-8DBDE0FF1F23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D83E9FA-3817-472C-8478-CF0335BD593A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D83E9FA-3817-472C-8478-CF0335BD593A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D83E9FA-3817-472C-8478-CF0335BD593A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D83E9FA-3817-472C-8478-CF0335BD593A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C158D618-5EF7-4725-BE2A-A26B31B74696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C158D618-5EF7-4725-BE2A-A26B31B74696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C158D618-5EF7-4725-BE2A-A26B31B74696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C158D618-5EF7-4725-BE2A-A26B31B74696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F064832-31DB-4565-B3C7-6698B2041197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F064832-31DB-4565-B3C7-6698B2041197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F064832-31DB-4565-B3C7-6698B2041197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F064832-31DB-4565-B3C7-6698B2041197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
